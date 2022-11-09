@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form og gallery.css">
+    <script src="form og gallery.js" defer></script>
+</head>
+
+<body>
+    <div id="modaldiv">
+        <div id="modaldiv2">
+            <img src="" id="modalimg">
+            <h2 id="imgtext"></h2>
+            <img src="../../images/close.svg" alt="" id="closeimg" onclick="closemodal ()">
+        </div>
+    </div>
+    <nav id="navbar">
+        <div id="navbardiv">
+            <img src="../../images/burgrer.svg" alt="" id="logo">
+            <ul>
+                <li><a href="#gallerysec">Menu</a></li>
+                <li><a href="#about">Om</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="fullmain">
+        <header id="header">
+            <hgroup>
+                <img src="../../images/buger2.jpg" alt="" id="headerimg">
+                <h1 id="headertext">burger</h1>
+            </hgroup>
+        </header>
+        <section id="gallerysec">
+            <h3>Menu</h3>
+            <div id="gallery">
+            <img src="../../images/burger.jpg" title="Burger" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/pomfrit.jpg" title="Pomfrit" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/shawama.jpg" title="Shawama" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/burger.jpg" title="Burger" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/pomfrit.jpg" title="Pomfrit" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/shawama.jpg" title="Shawama" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/burger.jpg" title="Burger" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/pomfrit.jpg" title="Pomfrit" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/shawama.jpg" title="Shawama" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/burger.jpg" title="Burger" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/pomfrit.jpg" title="Pomfrit" class="galleryimg" onclick="openmodal(this)">
+            <img src="../../images/shawama.jpg" title="Shawama" class="galleryimg" onclick="openmodal(this)">
+            </div>
+        </section>
+        <section id="about">
+            <article>
+                <h3>Noget om restaurenten</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste sit repellendus aperiam maiores, laboriosam placeat error consectetur quod magni atque. Beatae molestiae magni veritatis amet voluptatem fugiat unde voluptate eum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis placeat eius nostrum saepe qui porro possimus delectus animi, provident officiis beatae hic repellendus, ea nam eum aliquid architecto nobis nesciunt.</p>
+            </article>
+            <article>
+                <h3>Noget om restaurenten</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nihil nam quam dicta ex incidunt, nemo voluptate deleniti dolor sunt ab, odio in exercitationem laboriosam esse, laudantium quis iste hic.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde repudiandae voluptas vitae atque, reprehenderit itaque voluptatibus quod! In architecto quo nobis fugiat nam ipsum officia facilis expedita maiores. Et, veniam!</p>
+            </article>
+        </section>
+        <section id="contact">
+            <form id="newsform" class="form">
+                <h3>Nyhedsbrev</h3>
+                <label for="name" id="labname">Navn</label>
+                <input type="text" name="name" id="name">
+                <label for="email" id="labemail"> E-mail</label>
+                <input type="email" name="email" id="email">
+                <input type="button" value="Tilmeld" id="tilmeld" onclick="tilmeldfunktion ()">
+            </form>
+            <form id="orderform" class="form">
+                <!-- <h3>Bestil</h3>
+                <label id="number"></label>
+                <input type="number" name="" id="">
+                <label id="adress"></label>
+                <input type="text" name="" id="">
+                datating -->
+            </form>
+        </section>
+
+    </section>
+    <footer id="footer">
+        <div id="footerdiv">
+            <div id="socialmedia">
+                <img src="../../images/facebook.png" alt="">
+                <img src="../../images/instagram.png" alt="">
+                <img src="../../images/twitter.png" alt="">
+            </div>            
+                <p>Copyright?</p>
+        </div>
+    </footer>
+</body>
+
+</html>
